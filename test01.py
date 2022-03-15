@@ -17,3 +17,5 @@ print(l)
 print(r)
 z=torch.einsum('bn,anm,bm->ba', l, A, r)
 print(z)
+
+print(z)
